@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 24px;
+}
+
+.fa-arrow-right {
+	margin-left: 4px;
+	text-decoration: none;
+	color: #000;
+}
+
+.fa-arrow-left {
+	margin-right: 4px;
+	text-decoration: none;
+	color: #000;
+}
+
+.background2_side {
+	width: 105px;
+	height: 48px;
+	margin-left: 32px;
+	margin-bottom: 48px;
+	background: url(../img/Group\ 2.png);
+}
+
+.subtitle {
+	font-size: 40;
+	font-family: 'Quattrocento', serif; 
+	font-weight: 700;
+}
