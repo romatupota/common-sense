@@ -11,7 +11,8 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 24px;
+  width: 100%;
+  max-width: 380px;
 }
 
 .fa-arrow-right {
@@ -26,16 +27,97 @@ header {
 	color: #000;
 }
 
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
 .background2_side {
 	width: 105px;
 	height: 48px;
-	margin-left: 32px;
 	margin-bottom: 48px;
 	background: url(../img/Group\ 2.png);
+}
+
+.background3_side {
+  width: 362px;
+  height: 62px;
+  background: url(../img/background3.png);
+  background-size: 300px;
+  height: 62px;
+  background-repeat: no-repeat;
 }
 
 .subtitle {
 	font-size: 40;
 	font-family: 'Quattrocento', serif; 
 	font-weight: 700;
+}
+
+.round {
+	width: 48px;
+	height: 48px;
+  border-radius: 50%;
+  background: #656565;
+  border: #c2c2c2;
+  margin: 32px;
+}
+
+.share-item {
+  color: #656565;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+
+.share_background {
+  background: url(../img/Group\ 5.png);
+  width: 115px;
+  height: 20px;
+}
+
+.container {
+  padding: 12px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.content {
+  width: auto;
+  margin-right: 32px;
+  margin-left: 24px;
+}
+
+footer {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.additional_information {
+  font-size: 12px;
+  color: #656565;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  font-size: 40px;
+  width: 350px;
+  display: flex;
+  text-align: start;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #656565;
+  margin-top: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
